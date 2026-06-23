@@ -27,7 +27,7 @@ const examples = [
   },
 ];
 
-export default function Slide20_GoodVsBad({ direction }) {
+export default function Slide20_GoodVsBad({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -52,7 +52,7 @@ export default function Slide20_GoodVsBad({ direction }) {
           ))}
         </div>
       </div>
-      <Footer num={20} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

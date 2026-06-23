@@ -4,7 +4,7 @@ import SlideWrapper from '../components/SlideWrapper';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
 
-export default function Slide19_UseAIRight({ direction }) {
+export default function Slide19_UseAIRight({ direction, num, total }) {
   return (
     <SlideWrapper dark direction={direction}>
       <motion.div className="bg-circle bg-circle--animate" style={{ left: '-10%', top: '-15%', width: '36%', paddingBottom: '36%', background: 'var(--cyan)', opacity: 0.10 }} initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 0.10 }} transition={{ duration: 1.2 }} />
@@ -32,7 +32,7 @@ export default function Slide19_UseAIRight({ direction }) {
         </p>
       </Card>
 
-      <Footer num={19} total={21} dark />
+      <Footer num={num} total={total} dark />
     </SlideWrapper>
   );
 }

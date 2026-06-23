@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 
 const suggestions = ['the gym', 'home', 'study'];
 
-export default function Slide06_HowLLMThinks({ direction }) {
+export default function Slide06_HowLLMThinks({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -34,7 +34,7 @@ export default function Slide06_HowLLMThinks({ direction }) {
           </span>
         </motion.p>
       </div>
-      <Footer num={6} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

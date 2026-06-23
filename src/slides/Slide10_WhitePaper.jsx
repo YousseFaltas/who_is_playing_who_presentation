@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
-export default function Slide10_WhitePaper({ direction }) {
+export default function Slide10_WhitePaper({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -30,7 +30,7 @@ export default function Slide10_WhitePaper({ direction }) {
           <p>That gap only stays in our favor if we keep practicing. Let AI generate every idea for you, and that creative muscle starts to shrink.</p>
         </Card>
       </div>
-      <Footer num={10} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

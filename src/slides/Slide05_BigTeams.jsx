@@ -11,7 +11,7 @@ const teams = [
   { letter: 'A', color: '#8A3FFC', company: 'Anthropic', product: 'Claude', club: 'The Barcelona of AI' },
 ];
 
-export default function Slide05_BigTeams({ direction }) {
+export default function Slide05_BigTeams({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -31,7 +31,7 @@ export default function Slide05_BigTeams({ direction }) {
           ))}
         </div>
       </div>
-      <Footer num={5} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

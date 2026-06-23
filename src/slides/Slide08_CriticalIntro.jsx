@@ -3,7 +3,7 @@ import { FaShieldAlt } from 'react-icons/fa';
 import SlideWrapper from '../components/SlideWrapper';
 import Footer from '../components/Footer';
 
-export default function Slide08_CriticalIntro({ direction }) {
+export default function Slide08_CriticalIntro({ direction, num, total }) {
   return (
     <SlideWrapper dark direction={direction}>
       <motion.div className="bg-circle bg-circle--animate" style={{ left: '-10%', top: '-15%', width: '38%', paddingBottom: '38%', background: 'var(--cyan)', opacity: 0.10 }} initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 0.10 }} transition={{ duration: 1.2 }} />
@@ -21,7 +21,7 @@ export default function Slide08_CriticalIntro({ direction }) {
         If AI doesn't really think — what does it mean that humans do? The single greatest advantage you have over any AI model is the ability to question, doubt, and evaluate instead of just accepting what you're told.
       </motion.p>
 
-      <Footer num={8} total={21} dark />
+      <Footer num={num} total={total} dark />
     </SlideWrapper>
   );
 }

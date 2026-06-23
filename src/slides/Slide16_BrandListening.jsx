@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
-export default function Slide16_BrandListening({ direction }) {
+export default function Slide16_BrandListening({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -30,7 +30,7 @@ export default function Slide16_BrandListening({ direction }) {
           </p>
         </Card>
       </div>
-      <Footer num={16} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

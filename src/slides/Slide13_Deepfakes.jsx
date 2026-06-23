@@ -12,7 +12,7 @@ const cases = [
   { amt: 'Millions', desc: 'Taylor Swift\'s voice was AI-cloned to promote cookware she never endorsed, spread through Meta ads.' },
 ];
 
-export default function Slide13_Deepfakes({ direction }) {
+export default function Slide13_Deepfakes({ direction, num, total }) {
   return (
     <SlideWrapper dark direction={direction}>
       <motion.div className="bg-circle bg-circle--animate" style={{ right: '-8%', top: '-15%', width: '30%', paddingBottom: '30%', background: 'var(--red)', opacity: 0.10 }} initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 0.10 }} transition={{ duration: 1.2 }} />
@@ -37,7 +37,7 @@ export default function Slide13_Deepfakes({ direction }) {
           </p>
         </motion.div>
       </div>
-      <Footer num={13} total={21} dark />
+      <Footer num={num} total={total} dark />
     </SlideWrapper>
   );
 }

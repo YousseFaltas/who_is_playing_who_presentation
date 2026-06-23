@@ -21,7 +21,7 @@ const flaws = [
   },
 ];
 
-export default function Slide09_SpotTheFlaw({ direction }) {
+export default function Slide09_SpotTheFlaw({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -42,7 +42,7 @@ export default function Slide09_SpotTheFlaw({ direction }) {
           Critical thinking is a muscle — and like any muscle, if you stop using it, it gets weak.
         </motion.p>
       </div>
-      <Footer num={9} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

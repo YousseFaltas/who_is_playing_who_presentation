@@ -27,7 +27,7 @@ const items = [
   },
 ];
 
-export default function Slide18_AICreative({ direction }) {
+export default function Slide18_AICreative({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -52,7 +52,7 @@ export default function Slide18_AICreative({ direction }) {
           ))}
         </div>
       </div>
-      <Footer num={18} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

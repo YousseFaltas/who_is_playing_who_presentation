@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
-export default function Slide07_DoesAIThink({ direction }) {
+export default function Slide07_DoesAIThink({ direction, num, total }) {
   return (
     <SlideWrapper dark direction={direction}>
       <motion.div className="bg-circle bg-circle--animate" style={{ right: '-8%', top: '-20%', width: '36%', paddingBottom: '36%', background: 'var(--cyan)', opacity: 0.10 }} initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 0.10 }} transition={{ duration: 1.2 }} />
@@ -53,7 +53,7 @@ export default function Slide07_DoesAIThink({ direction }) {
           ASK: "Why would a company want their AI to look like it's thinking, even just for show?"
         </motion.p>
       </div>
-      <Footer num={7} total={21} dark />
+      <Footer num={num} total={total} dark />
     </SlideWrapper>
   );
 }

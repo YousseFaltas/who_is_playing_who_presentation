@@ -11,7 +11,7 @@ const stats = [
   { label: "Couldn't Quote Their Own Essay", caption: 'When asked to quote a sentence from the essay they "wrote" — most couldn\'t.' },
 ];
 
-export default function Slide11_CognitiveDebt({ direction }) {
+export default function Slide11_CognitiveDebt({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -37,7 +37,7 @@ export default function Slide11_CognitiveDebt({ direction }) {
           </p>
         </Card>
       </div>
-      <Footer num={11} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

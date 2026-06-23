@@ -12,7 +12,7 @@ const facts = [
   { stat: '24–72 hrs', desc: 'Cairo agencies use AI to generate ad campaigns in hours instead of weeks.' },
 ];
 
-export default function Slide17_EgyptScale({ direction }) {
+export default function Slide17_EgyptScale({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -38,7 +38,7 @@ export default function Slide17_EgyptScale({ direction }) {
           </p>
         </Card>
       </div>
-      <Footer num={17} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

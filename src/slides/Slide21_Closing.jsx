@@ -10,7 +10,7 @@ const questions = [
   '"If you could design one rule that every AI company had to follow, what would it be?"',
 ];
 
-export default function Slide21_Closing({ direction }) {
+export default function Slide21_Closing({ direction, num, total }) {
   return (
     <SlideWrapper dark direction={direction}>
       <motion.div className="bg-circle bg-circle--animate" style={{ left: '-8%', top: '-12%', width: '30%', paddingBottom: '30%', background: 'var(--cyan)', opacity: 0.10 }} initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 0.10 }} transition={{ duration: 1.2 }} />
@@ -52,7 +52,7 @@ export default function Slide21_Closing({ direction }) {
         ))}
       </div>
 
-      <Footer num={21} total={21} dark />
+      <Footer num={num} total={total} dark />
     </SlideWrapper>
   );
 }

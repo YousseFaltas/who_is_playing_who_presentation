@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
-export default function Slide15_ChatGPTAds({ direction }) {
+export default function Slide15_ChatGPTAds({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -57,7 +57,7 @@ export default function Slide15_ChatGPTAds({ direction }) {
           </p>
         </Card>
       </div>
-      <Footer num={15} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

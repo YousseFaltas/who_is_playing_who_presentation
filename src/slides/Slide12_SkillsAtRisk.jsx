@@ -13,7 +13,7 @@ const risks = [
   { icon: '👁️', text: 'Believing an AI-generated image or video instantly, because it looks real.' },
 ];
 
-export default function Slide12_SkillsAtRisk({ direction }) {
+export default function Slide12_SkillsAtRisk({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -35,7 +35,7 @@ export default function Slide12_SkillsAtRisk({ direction }) {
           </p>
         </Card>
       </div>
-      <Footer num={12} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

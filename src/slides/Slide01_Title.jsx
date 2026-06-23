@@ -3,7 +3,7 @@ import SlideWrapper from '../components/SlideWrapper';
 import BgDecoration from '../components/BgDecoration';
 import Card from '../components/Card';
 
-export default function Slide01_Title({ direction }) {
+export default function Slide01_Title({ direction, num, total }) {
   const extraCircles = [
     { x: '66%', y: '-18%', w: '46%', color: 'var(--cyan)', opacity: 0.10, delay: 0 },
     { x: '79%', y: '68%', w: '14%', color: 'var(--cyan)', opacity: 0.18, delay: 1 },

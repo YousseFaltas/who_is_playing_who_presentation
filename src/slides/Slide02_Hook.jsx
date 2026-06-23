@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
-export default function Slide02_Hook({ direction }) {
+export default function Slide02_Hook({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -25,7 +25,7 @@ export default function Slide02_Hook({ direction }) {
           </span>
         </motion.p>
       </div>
-      <Footer num={2} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }

@@ -14,7 +14,7 @@ const items = [
   { label: 'Keyboard Autocomplete', Icon: FaKeyboard },
 ];
 
-export default function Slide04_AIEverywhere({ direction }) {
+export default function Slide04_AIEverywhere({ direction, num, total }) {
   return (
     <SlideWrapper direction={direction}>
       <BgDecoration />
@@ -33,7 +33,7 @@ export default function Slide04_AIEverywhere({ direction }) {
           ))}
         </div>
       </div>
-      <Footer num={4} total={21} />
+      <Footer num={num} total={total} />
     </SlideWrapper>
   );
 }
