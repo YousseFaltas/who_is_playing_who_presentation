@@ -53,8 +53,7 @@ export default function Navigation({ onPrev, onNext, current, total }) {
         )}
       </div>
 
-      {/* Keyboard hint */}
-      <div className="keyboard-hint">← → or Space to navigate</div>
+
     </>
   );
 }

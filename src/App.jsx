@@ -4,8 +4,6 @@ import './App.css';
 
 import Navigation from './components/Navigation';
 import Slide01_Title from './slides/Slide01_Title';
-import Slide02_Hook from './slides/Slide02_Hook';
-import Slide03_BigQuestion from './slides/Slide03_BigQuestion';
 import Slide04_AIEverywhere from './slides/Slide04_AIEverywhere';
 import Slide05_BigTeams from './slides/Slide05_BigTeams';
 import Slide06_HowLLMThinks from './slides/Slide06_HowLLMThinks';
@@ -27,8 +25,6 @@ import Slide21_Closing from './slides/Slide21_Closing';
 
 const SLIDES = [
   Slide01_Title,
-  Slide02_Hook,
-  Slide03_BigQuestion,
   Slide04_AIEverywhere,
   Slide05_BigTeams,
   Slide06_HowLLMThinks,

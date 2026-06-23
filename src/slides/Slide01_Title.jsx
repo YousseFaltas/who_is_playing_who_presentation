@@ -29,7 +29,11 @@ export default function Slide01_Title({ direction }) {
         Everything about AI and who's really in control
       </motion.p>
       <Card fill="var(--navy2)" className="s1-bottom-card" delay={0.65}>
-        <p>Are you using AI… or is AI using you?</p>
+        <p style={{ fontWeight: 'bold', marginBottom: '1vh' }}>Are you using AI… or is AI using you?</p>
+        <p style={{ fontSize: '2.5vh', opacity: 0.8, lineHeight: 1.4 }}>
+          That's the question I want you to ask yourself every single day,<br />
+          after you walk out of here.
+        </p>
       </Card>
     </SlideWrapper>
   );
