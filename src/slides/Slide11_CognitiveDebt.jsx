@@ -29,10 +29,10 @@ export default function Slide11_CognitiveDebt({ direction, num, total }) {
           ))}
         </div>
         <Card fill="var(--navy)" className="s10-bottom-card" delay={0.5}>
-          <p>
+          <p style={{ textAlign: "center", direction: "rtl" }}>
             <strong className="text-amber">Cognitive Debt: </strong>
             <span className="text-white">
-              It feels free in the moment — but you're quietly borrowing against your own ability to think, remember, and create. The bill comes due later, usually in an exam room with no Wi-Fi.
+              بتحس إنه ببلاش دلوقتي — بس إنت بهدوء بتستلف على حساب قدرتك إنك تفكر، تفتكر، وتبدع بنفسك. والفاتورة بتتحاسب بعدين… غالبًا في لجنة امتحان من غير Wi-Fi.
             </span>
           </p>
         </Card>

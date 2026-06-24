@@ -17,8 +17,8 @@ export default function Slide14_AdsIntro({ direction, num, total }) {
         AI, Ads & Your Choices
       </motion.h1>
 
-      <motion.p className="s3-footer-text" style={{ maxWidth: '85%' }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.5 }}>
-        Let's go back to that Instagram feed from the beginning. Why did it show you exactly what it showed you? Every time you scroll, like, skip, or rewatch, you're feeding a recommender system data. Its one job: keep you watching, and slot in things you're likely to buy.
+      <motion.p className="s3-footer-text" style={{ maxWidth: '85%', direction: "rtl", textAlign: "right" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.5 }}>
+        تعالى نرجع للـ Instagram feed اللي بدأنا بيه. ليه ورّاك بالظبط الحاجات اللي شفتها؟ كل مرة تعمل scroll، أو تعمل like، أو تعدّي حاجة، أو تعيد مشاهدة فيديو — إنت كده بتغذي recommender system ببيانات. وظيفته الوحيدة: إنه يخلّيك تكمّل مشاهدة… ويحطلك في النص حاجات متوقع إنك تشتريها.
       </motion.p>
 
       <Footer num={num} total={total} dark />

@@ -51,9 +51,9 @@ export default function Slide15_ChatGPTAds({ direction, num, total }) {
         </motion.div>
 
         <Card fill="var(--navy)" style={{ padding: '2.5vh 3vh', width: '85%' }} delay={0.45}>
-          <p style={{ fontSize: '2.4vh', color: 'var(--white)', lineHeight: 1.5, margin: 0 }}>
-            <strong className="text-amber">The principle: </strong>
-            The company that built the "smart assistant" you trust for honest answers is also being paid by advertisers. Every time you ask an AI "what should I buy?" — ask yourself: <em>who benefited from the answer I just got?</em>
+          <p style={{ fontSize: '2.4vh', color: 'var(--white)', lineHeight: 1.5, margin: 0, textAlign: "right", direction: "rtl" }}>
+            <strong className="text-amber">الفكرة: </strong>
+            الشركة اللي بنت الـ "smart assistant" اللي إنت واثق إنه هيديك إجابات honest… ممكن تكون في نفس الوقت بتكسب من advertisers. كل مرة تسأل AI: "أشتري إيه؟" — اسأل نفسك: <em>مين اللي استفاد من الإجابة اللي لسه خدتها؟</em>
           </p>
         </Card>
       </div>

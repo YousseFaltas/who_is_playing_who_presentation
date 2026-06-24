@@ -26,7 +26,6 @@ export default function Slide21_Closing({ direction, num, total }) {
 
       <motion.p className="s3-footer-text" style={{ maxWidth: '85%', fontSize: '2.407vh', marginBottom: '2.593vh' }}
         initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.5 }}>
-        This lecture itself was researched with the help of Claude. The topic, structure, five sections, message, and tone — all human decisions. The AI did the repetitive digging: searching sources, organizing them, drafting a structure. I did the deciding, the verifying, and the actual thinking.
       </motion.p>
 
       <Card fill="var(--navy2)" style={{ margin: '0 32px', padding: '14px 18px', marginBottom: '1.852vh' }} delay={0.6}>
