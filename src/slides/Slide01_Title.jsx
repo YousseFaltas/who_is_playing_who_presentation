@@ -20,7 +20,7 @@ export default function Slide01_Title({ direction, num, total }) {
         transition={{ duration: 1.4, delay: 0.3 }}
       />
       <motion.p className="s1-kicker" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }}>
-        An AI Lecture  ·  For High-School Students
+        An AI Lecture 
       </motion.p>
       <motion.h1 className="s1-title" initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7, delay: 0.35 }}>
         Who's Playing Who?
@@ -29,10 +29,9 @@ export default function Slide01_Title({ direction, num, total }) {
         Everything about AI and who's really in control
       </motion.p>
       <Card fill="var(--navy2)" className="s1-bottom-card" delay={0.65}>
-        <p style={{ fontWeight: 'bold', marginBottom: '1vh' }}>Are you using AI… or is AI using you?</p>
-        <p style={{ fontSize: '2.5vh', opacity: 0.8, lineHeight: 1.4 }}>
-          That's the question I want you to ask yourself every single day,<br />
-          after you walk out of here.
+        <p style={{ fontWeight: 'bold', marginBottom: '1vh' , textAlign: 'center' , direction: 'rtl'}}>إنت اللي بتستخدم AI… ولا AI هو اللي بيستخدمك؟</p>
+        <p style={{ fontSize: '2.5vh', opacity: 0.8, lineHeight: 1.4, textAlign: 'center', direction: 'rtl' }}>
+          ده السؤال اللي عايزك تسأله لنفسك كل يوم،
         </p>
       </Card>
     </SlideWrapper>
