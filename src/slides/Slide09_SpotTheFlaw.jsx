@@ -8,16 +8,16 @@ import Footer from '../components/Footer';
 
 const flaws = [
   {
-    st: '"This influencer takes a supplement and got abs in two weeks, so the supplement gave him abs."',
-    fl: 'He could also be training and dieting — correlation isn\'t causation.',
+    st: '"الـ influencer ده أخد supplement وبقى عنده abs في أسبوعين، يبقى الـ supplement هو اللي عملهاله."',
+    fl: 'الغلط هنا: ممكن يكون كمان بيتدرب وملتزم بـ diet — الـ correlation مش معناه causation.',
   },
   {
-    st: '"Everyone in my class likes this song, so it must be the best song ever made."',
-    fl: 'Popularity isn\'t quality — and "everyone" is a tiny, biased sample.',
+    st: '"كل اللي في الكلاس عندي بيحبوا الأغنية دي، يبقى أكيد دي أحسن أغنية اتعملت في التاريخ."',
+    fl: 'الغلط هنا: الـ popularity مش معناها quality — و"كل الناس" هنا أصلًا sample صغيرة ومتحيزة.',
   },
   {
-    st: '"My phone\'s battery died right after I talked about buying new shoes, so my phone is definitely listening."',
-    fl: 'Coincidence vs. evidence — no real proof of cause and effect.',
+    st: '"أنا لبست التيشيرت المحظوظ بتاعي يوم الامتحان وجبت درجة كويسة، يبقى التيشيرت هو السبب."',
+    fl: 'الغلط هنا: فيه فرق بين coincidence وبين evidence — مجرد إن حاجتين حصلوا ورا بعض مش معناه إن واحدة سببت التانية.',
   },
 ];
 
@@ -30,9 +30,8 @@ export default function Slide09_SpotTheFlaw({ direction, num, total }) {
         <div className="s8-flaw-list">
           {flaws.map((f, i) => (
             <Card key={i} fill="var(--card-bg)" shadow={false} className="s8-flaw-card" delay={0.2 + i * 0.12}>
-              <p className="s8-statement">{f.st}</p>
-              <p className="s8-correction">
-                <strong className="text-cyan-dk">The flaw: </strong>
+              <p className="s8-statement" style={{ textAlign: "center", direction: "rtl" }} >{f.st}</p>
+              <p className="s8-correction" style={{ textAlign: "center", direction: "rtl" }}>
                 <span className="text-body">{f.fl}</span>
               </p>
             </Card>
