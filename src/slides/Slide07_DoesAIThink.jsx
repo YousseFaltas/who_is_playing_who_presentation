@@ -46,11 +46,11 @@ export default function Slide07_DoesAIThink({ direction, num, total }) {
           </p>
         </motion.div>
 
-        <Card fill="var(--navy2)" shadow={false} className="s7-bottom-card" delay={0.55} style={{ position: 'relative', bottom: 'auto', left: 'auto', right: 'auto', width: '80%', margin: '4vh auto 0' }}>
-          <p style={{ fontSize: '2.2vh', textAlign: 'center' }}>Something can be designed to feel trustworthy — without actually earning that trust. Keep that in your pocket.</p>
+        <Card fill="var(--navy2)" shadow={false} className="s7-bottom-card" delay={0.55} style={{ position: 'relative', bottom: 'auto', left: 'auto', right: 'auto', width: '80%', margin: '4vh auto 0' , direction: 'rtl' }}>
+          <p style={{ fontSize: '2.2vh', textAlign: 'center' }}>في حاجات ممكن تتصمم إنها تحسسك إنها trustworthy — من غير ما تكون فعلًا استحقّت الثقة دي. خلي الفكرة دي في بالك.</p>
         </Card>
-        <motion.p className="s7-quote" style={{ position: 'relative', bottom: 'auto', left: 'auto', right: 'auto', textAlign: 'center', marginTop: '3vh', fontSize: '2vh' }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.7 }}>
-          ASK: "Why would a company want their AI to look like it's thinking, even just for show?"
+        <motion.p className="s7-quote" style={{ position: 'relative', bottom: 'auto', left: 'auto', right: 'auto', textAlign: 'center', marginTop: '3vh', fontSize: '2vh' , direction: 'rtl'}} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.7 }}>
+          اسأل: "ليه شركة ممكن تبقى عايزة الـ AI بتاعها يبان إنه بيفكر، حتى لو ده مجرد show؟"
         </motion.p>
       </div>
       <Footer num={num} total={total} dark />

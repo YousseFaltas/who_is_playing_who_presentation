@@ -17,8 +17,8 @@ export default function Slide08_CriticalIntro({ direction, num, total }) {
         Critical Thinking
       </motion.h1>
 
-      <motion.p className="s3-footer-text" style={{ maxWidth: '80%' }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.5 }}>
-        If AI doesn't really think — what does it mean that humans do? The single greatest advantage you have over any AI model is the ability to question, doubt, and evaluate instead of just accepting what you're told.
+      <motion.p className="s3-footer-text" style={{ maxWidth: '80%' , direction: 'rtl' , textAlign: "center" }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.5 }}>
+        لو الـ AI مش بيفكر فعلًا — يبقى إيه معنى إن البشر بيفكروا؟ أكبر ميزة عندك مقارنة بأي AI model هي إن عندك القدرة إنك تسأل، وتشك، وتقيّم… بدل ما بس تقبل أي حاجة بيتقالك.
       </motion.p>
 
       <Footer num={num} total={total} dark />
